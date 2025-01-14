@@ -1,0 +1,64 @@
+# Node modules
+node_modules/
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+
+# Vite
+/dist/
+/.vite/
+/.vite-deps/
+
+# React App Shell (App Shell built with React)
+# For React App Shell, exclude build and public folders
+/app-shell/build/
+/app-shell/node_modules/
+/app-shell/dist/
+/app-shell/dist-ssr/
+
+# React (micro-app)
+# React micro-app (2nd React app)
+# Exclude build folder for React micro-app 2
+/react-app/build/
+/react-app/node_modules/
+/react-app/dist/
+/react-app/dist-ssr/
+
+# Angular
+/angular-app/dist/
+/angular-app/node_modules/
+/angular-app/.angular/
+
+# Vue
+/vue-app/dist/
+/vue-app/node_modules/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# IDEs
+/.idea/
+/.vscode/
+/*.sublime-project
+/*.sublime-workspace
+
+# Optional: Environment Files
+.env
+.env.local
+.env.*.local
